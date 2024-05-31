@@ -1,110 +1,110 @@
 let productos = [
 
     {
-        "id": "proteina-01",
-        "titulo": "Whey Protein Star Nutrition Varios Sabores X 2lbs",
-        "imagen": "./img/Proteinas/01.jpg",
-        "categoria":  "proteina",
-        "precio": 23700
+        id: "proteina-01",
+        titulo: "Whey Protein Star Nutrition Varios Sabores X 2lbs",
+        imagen: "./img/Proteinas/01.jpg",
+        categoria:  "Proteinas",
+        precio: 23700
     },
     {
-        "id": "proteina-02",
-        "titulo": "Whey Protein True Made Ena Varios Sabores X 1 Lbs",
-        "imagen": "./img/Proteinas/02.jpg",
-        "categoria":  "proteina",
-        "precio": 13200
+        id: "proteina-02",
+        titulo: "Whey Protein True Made Ena Varios Sabores X 1 Lbs",
+        imagen: "./img/Proteinas/02.jpg",
+        categoria:  "Proteinas",
+        precio: 13200
     },
     {
-        "id": "proteina-03",
-        "titulo": "Whey Protein 7900 Gentech Varios Sabores X 500gs",
-        "imagen": "./img/Proteinas/03.jpg",
-        "categoria":  "proteina",
-        "precio": 11500
+        id: "proteina-03",
+        titulo: "Whey Protein 7900 Gentech Varios Sabores X 500gs",
+        imagen: "./img/Proteinas/03.jpg",
+        categoria:  "Proteinas",
+        precio: 11500
     },
     {
-        "id": "proteina-04",
-        "titulo": "Proteína Whey Protein Body Advance Varios Sabores 910g",
-        "imagen": "./img/Proteinas/04.jpg",
-        "categoria":  "proteina",
-        "precio": 14900
+        id: "proteina-04",
+        titulo: "Proteína Whey Protein Body Advance Varios Sabores 910g",
+        imagen: "./img/Proteinas/04.jpg",
+        categoria:  "Proteinas",
+        precio: 14900
     },
     {
-        "id": "proteina-05",
-        "titulo": "Prolac Whey Protein Pulver Varios Sabores X 1kg",
-        "imagen": "./img/Proteinas/05.jpg",
-        "categoria":  "proteina",
-        "precio": 24800
+        id: "proteina-05",
+        titulo: "Prolac Whey Protein Pulver Varios Sabores X 1kg",
+        imagen: "./img/Proteinas/05.jpg",
+        categoria:  "Proteinas",
+        precio: 24800
     },
     {
-        "id": "creatina-01",
-        "titulo": "Creatina Monohidrato EEuu Star Nutrition X 300g",
-        "imagen": "./img/Creatinas/01.jpg",
-        "categoria": "creatina",
-        "precio": 25500
+        id: "creatina-01",
+        titulo: "Creatina Monohidrato EEuu Star Nutrition X 300g",
+        imagen: "./img/Creatinas/01.jpg",
+        categoria: "Creatinas",
+        precio: 25500
     },
     {
-        "id": "creatina-02",
-        "titulo": "Creatina Micronizada Ena Varios Sabores X 300g",
-        "imagen": "./img/Creatinas/02.jpg",
-        "categoria": "creatina",
-        "precio": 26600
+        id: "creatina-02",
+        titulo: "Creatina Micronizada Ena Varios Sabores X 300g",
+        imagen: "./img/Creatinas/02.jpg",
+        categoria: "Creatinas",
+        precio: 26600
     },
     {
-        "id": "creatina-03",
-        "titulo": "Creatina Monohidrato Premium Mervick Lab X 300g",
-        "imagen": "./img/Creatinas/03.jpg",
-        "categoria": "creatina",
-        "precio": 21500
+        id: "creatina-03",
+        titulo: "Creatina Monohidrato Premium Mervick Lab X 300g",
+        imagen: "./img/Creatinas/03.jpg",
+        categoria: "Creatinas",
+        precio: 21500
     },
     {
-        "id": "creatina-04",
-        "titulo": "Creatina Monohidrato Gold Nutrition X 300gr",
-        "imagen": "./img/Creatinas/04.jpg",
-        "categoria": "creatina",
-        "precio": 22500
+        id: "creatina-04",
+        titulo: "Creatina Monohidrato Gold Nutrition X 300gr",
+        imagen: "./img/Creatinas/04.jpg",
+        categoria: "Creatinas",
+        precio: 22500
     },
     {
-        "id": "creatina-05",
-        "titulo": "Creatina Micronizada Htn X 250g",
-        "imagen": "./img/Creatinas/05.jpg",
-        "categoria": "creatina",
-        "precio": 27500
+        id: "creatina-05",
+        titulo: "Creatina Micronizada Htn X 250g",
+        imagen: "./img/Creatinas/05.jpg",
+        categoria: "Creatinas",
+        precio: 27500
     },
     
     {
-        "id": "multivitaminico-01",
-        "titulo": "Multivitamin Ena Sport X 60 Tabs",
-        "imagen": "./img/Multivitaminico/01.jpg",
-        "categoria": "multivitaminico",
-        "precio": 7900
+        id: "multivitaminico-01",
+        titulo: "Multivitamin Ena Sport X 60 Tabs",
+        imagen: "./img/Multivitaminico/01.jpg",
+        categoria: "Multivitaminicos",
+        precio: 7900
     },
     {
-        "id": "multivitaminico-02",
-        "titulo": "V-Mineral complex 60 comp Body Advance",
-        "imagen": "./img/Multivitaminico/02.jpg",
-        "categoria": "multivitaminico",
-        "precio": 5850
+        id: "multivitaminico-02",
+        titulo: "V-Mineral complex 60 comp Body Advance",
+        imagen: "./img/Multivitaminico/02.jpg",
+        categoria: "Multivitaminicos",
+        precio: 5850
     },
     {
-        "id": "multivitaminico-03",
-        "titulo": "Enacción multivitamínico 30 comp ENA",
-        "imagen": "./img/Multivitaminico/03.jpg",
-        "categoria": "multivitaminico",
-        "precio": 5870
+        id: "multivitaminico-03",
+        titulo: "Enacción multivitamínico 30 comp ENA",
+        imagen: "./img/Multivitaminico/03.jpg",
+        categoria: "Multivitaminicos",
+        precio: 5870
     },
     {
-        "id": "multivitaminico-04",
-        "titulo": "Vitamin pro 60 caps HTN",
-        "imagen": "./img/Multivitaminico/04.jpg",
-        "categoria": "multivitaminico",
-        "precio": 10080
+        id: "multivitaminico-04",
+        titulo: "Vitamin pro 60 caps HTN",
+        imagen: "./img/Multivitaminico/04.jpg",
+        categoria: "Multivitaminicos",
+        precio: 10080
     },
     {
-        "id": "multivitaminico-05",
-        "titulo": "Multivitamin 60 tabs Gentech",
-        "imagen": "./img/Multivitaminico/05.jpg",
-        "categoria": "multivitaminico",
-        "precio": 4850
+        id: "multivitaminico-05",
+        titulo: "Multivitamin 60 tabs Gentech",
+        imagen: "./img/Multivitaminico/05.jpg",
+        categoria: "Multivitaminicos",
+        precio: 4850
     }
 ];
 
@@ -151,19 +151,31 @@ botonesCategorias.forEach(boton => {
         botonesCategorias.forEach(boton => boton.classList.remove("active"));
         e.currentTarget.classList.add("active");
 
-        if (e.currentTarget.id != "todos") {
-            const productoCategoria = productos.find(producto => producto.categoria === e.currentTarget.id);
-            console.log(productoCategoria)
-            tituloPrincipal.innerText = productoCategoria.categoria;
-            const productosBoton = productos.filter(producto => producto.categoria === e.currentTarget.id);
-            cargarProductos(productosBoton);
+        const categoriaSeleccionada = e.currentTarget.id;
+
+        if (categoriaSeleccionada != "todos") {
+            const productoCategoria = productos.find(producto => producto.categoria === categoriaSeleccionada);
+
+            if (productoCategoria) {
+                tituloPrincipal.innerText = productoCategoria.categoria;
+
+                const productosBoton = productos.filter(producto => producto.categoria === categoriaSeleccionada);
+                cargarProductos(productosBoton);
+            } else {
+                tituloPrincipal.innerText = "Categoría vacía";
+                cargarProductos([]);
+            }
         } else {
             tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
         }
 
-    })
+    });
 });
+
+const botonTodos = document.getElementById("todos");
+botonTodos.click();
+
 
 function actualizarBotonesAgregar() {
     botonesAgregar = document.querySelectorAll(".producto-agregar");
