@@ -6,10 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suplementos La Plata</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.css" integrity="sha512-AIwt5sjXSKDo4t0KSQ/eAuy43kQMc1hYtIKLxaFrHd26nQFzMo1FJdBIickVyGXnhm2xB2OOYBqMBgu3dBU4KA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="icon" href="https://http2.mlstatic.com/storage/mshops-appearance-api/images/94/314526594/logo-2024022122562952131.png" data-head-react="true">
 </head>
 <body>
+
+    <div id="fullpage">
+
+    <div class="section" id="inicio">
+        <div class="bg-white">
+            <header class="absolute inset-x-0 top-0 z-50">
+              <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex lg:flex-1">
+                  <a href="#" class="-m-1.5 p-1.5">
+                    <span class="sr-only">SLP</span>
+                    <img class="h-12 w-auto" src="https://http2.mlstatic.com/storage/mshops-appearance-api/images/94/314526594/logo-2024022122562952131.png" alt="">
+                  </a>
+                </div>
+                <div class="flex lg:hidden">
+                  <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                  <a href="#inicio" class="text-sm font-semibold leading-6 text-gray-900">Inicio</a>
+                  <a href="#Tienda" class="text-sm font-semibold leading-6 text-gray-900">Tienda Online</a>
+                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Sobre nosotros</a>
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Contacto <span aria-hidden="true">&rarr;</span></a>
+                </div>
+              </nav>
+              <!-- Mobile menu, show/hide based on menu open state. -->
+              <div class="lg:hidden" role="dialog" aria-modal="true">
+                <!-- Background backdrop, show/hide based on slide-over state. -->
+                <div class="fixed inset-0 z-50"></div>
+                <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+                  <div class="flex items-center justify-between">
+                    <a href="#" class="-m-1.5 p-1.5">
+                      <span class="sr-only">Your Company</span>
+                      <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="">
+                    </a>
+                    <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+                      <span class="sr-only">Close menu</span>
+                      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="mt-6 flow-root">
+                    <div class="-my-6 divide-y divide-gray-500/10">
+                      <div class="space-y-2 py-6">
+                        <a href="#inicio" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Inicio</a>
+                        <a href="#Tienda" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Tienda Online</a>
+                        <a href="#footer" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Sobre nosotros</a>
+                      </div>
+                      <div class="py-6">
+                        <a href="#footer" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contacto</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </header>
+          
+            <div class="relative isolate px-6 pt-14 lg:px-8">
+              <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+              </div>
+              <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+                  <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                    Somos una empresa dedicada al Fitness <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Conocenos <span aria-hidden="true">&rarr;</span></a>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Bienvenidos a Suplementos La Plata</h1>
+                  <p class="mt-6 text-lg leading-8 text-gray-600">Un grupo de personas que se conocio en el gimnasio compartiendo la misma pasion y se hicieron amigos. Ahora queremos ayudar a que mas personas consigan sus resultados</p>
+                  <div class="mt-10 flex items-center justify-center gap-x-6">
+                    <a href="#Tienda" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Ir a la Tienda</a>
+                    <a href="#footer" class="text-sm font-semibold leading-6 text-gray-900">Contacto <span aria-hidden="true">→</span></a>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
+                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+              </div>
+            </div>
+          </div>
+
+    </div>   
+
+    <div class="section" id="Tienda">
 
     <div class="wrapper">
         <header class="header-mobile">
@@ -45,6 +139,7 @@
             <footer>
                 <p class="texto-footer">© 2024 SLP</p>
             </footer>
+            
         </aside>
         <main>
             <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>          
@@ -52,7 +147,74 @@
             </div>
         </main>
     </div>
+    </div>
+
+
+    <div class="section" id="footer">
+        <!-- Contact and Map Section -->
+    <div class="container mx-auto my-10 p-5 bg-white rounded-lg shadow-lg">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            
+            <!-- Contact Form -->
+            <div>
+                <h2 class="text-2xl font-bold mb-5">Contáctanos</h2>
+                <form class="space-y-4">
+                    <div>
+                        <label for="name" class="block text-sm font-medium text-gray-700">Nombre</label>
+                        <input type="text" id="name" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+                        <input type="email" id="email" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700">Mensaje</label>
+                        <textarea id="message" rows="4" class="mt-1 block w-full p-2 border border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="w-full py-2 px-4 bg-indigo-600 text-white font-bold rounded-md shadow-sm hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none">
+                            Enviar
+                        </button>
+                    </div>
+                </form>
+            </div>
+            
+            <!-- Map -->
+            <div>
+                <h2 class="text-2xl font-bold mb-5">Nuestra Ubicación</h2>
+                <div class="aspect-w-16 aspect-h-9">
+                    <iframe class="rounded-md shadow-sm" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0545923889736!2d-57.9762052255553!3d-34.90507947347391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7be4081135d%3A0xb1f31f1d14ae700!2sSuplementaci%C3%B3n%20La%20Plata!5e0!3m2!1sen!2sar!4v1718496099671!5m2!1sen!2sar" width="600" height="450" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-zinc-50 text-center text-surface/75 dark:bg-neutral-700 dark:text-white/75 lg:text-left">
+        <div class="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-white/10 lg:justify-between">
+            <div class="me-12 hidden lg:block">
+                <span>Conectate con nosotros en nuestras redes sociales:</span>
+            </div>
+            <div class="flex justify-center">
+                <a href="https://es-la.facebook.com/people/Suplementaci%C3%B3n-La-Plata/100063469596477/" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" /></svg>
+                </a>
+                <a href="https://x.com/laplatasuples" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 512 512"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" /></svg>
+                </a>
+                <a href="https://www.instagram.com/suplementacion_laplata/" class="me-6 [&>svg]:h-4 [&>svg]:w-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.5 42.5-29.5 11.7-99.5 9-132.2 9s-102.7 2.6-132.2-9c-19.6-7.8-34.7-22.9-42.5-42.5-11.7-29.5-9-99.5-9-132.2s-2.6-102.7 9-132.2c7.8-19.6 22.9-34.7 42.5-42.5 29.5-11.7 99.5-9 132.2-9s102.7-2.6 132.2 9c19.6 7.8 34.7 22.9 42.5 42.5 11.7 29.5 9 99.5 9 132.2s2.6 102.6-9 132.2z" /></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    </div>
     
+
+   </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.22/fullpage.js" integrity="sha512-i/ns8wG9O57E0ztO4Ct//35oFx9AVTYCTFrRxHvUcx0d4ddfvvF2NwXFzAFNEsWcQuMWmST49JOp3EsVNNQAQQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
