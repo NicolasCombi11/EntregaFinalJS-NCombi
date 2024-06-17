@@ -9,3 +9,12 @@ openMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
 })
+
+
+document.querySelector('.open-menu').addEventListener('click', () => {
+    document.querySelector('aside').classList.add('aside-visible');
+});
+
+document.querySelector('.close-menu').addEventListener('click', () => {
+    document.querySelector('aside').classList.remove('aside-visible');
+});
